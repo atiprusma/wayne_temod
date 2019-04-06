@@ -28,7 +28,7 @@ print_modname() {
 }
 
 set_permissions() {
-  set_perm_recursive $UNITY       0     0       0755      0644
+  #set_perm_recursive $UNITY       0     0       0755      0644
   set_perm $UNITY$VEN/bin/thermal-engine 0 0 0755
 }
 
