@@ -36,10 +36,10 @@ unity_custom() {
   product=$(grep_prop ro.build.product)
   model=$(grep_prop ro.product.model)
   if [ "$model" == "jasmine*" -o "wayne" -o "whyred" ]; then
-    ui_print " "
-    ui_print "- Your $model is supported"
-    sed -i "s/meme/$model/g" $TMPDIR/module.prop
+      ui_print " "
+      ui_print "- Your $model is supported"
+      sed -i "s/meme/$model/g" $TMPDIR/module.prop
   else
-    abort  "! Your $model isn't supported"
+      abort  "! Your $model isn't supported"
   fi
 }

@@ -1,6 +1,6 @@
 id=wayne_temod
-name=[meme] TEMod UnF
-version=Yukina
-versionCode=35
-author=atiprusma, Givairuz Kmz @ TG
-description=Modified thermal engine for meme in order to achieve better performance and charging rates. 
+name=[meme] Modified Thermal Engine
+version=0.1
+versionCode=1056
+author=atiprusma @ TG
+description=Systemlessly modify Mi 6X thermal-engine with customable map, confs, and bin files.
